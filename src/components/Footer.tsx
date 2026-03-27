@@ -1,11 +1,11 @@
 const Footer = () => (
-  <footer className="bg-primary text-primary-foreground/70 py-12">
+  <footer className="bg-transparent text-primary-foreground/75 py-12">
     <div className="container-narrow px-4 sm:px-6 lg:px-8">
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <p className="font-heading text-lg font-bold text-primary-foreground mb-3">
-            Fatafat <span className="text-accent">Loans</span>
-          </p>
+          <div className="inline-flex bg-white rounded-lg px-2 py-1 mb-3">
+            <img src="/fatakpay-logo.png" alt="Fatakpay logo" className="h-10 w-auto" />
+          </div>
           <p className="text-sm leading-relaxed">
             Making personal loans simple, fast, and accessible for every Indian.
           </p>
@@ -38,7 +38,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center text-xs">
+      <div className="border-t border-primary-foreground/15 mt-10 pt-6 text-center text-xs">
         © {new Date().getFullYear()} Fatafat Loans. All rights reserved.
       </div>
     </div>

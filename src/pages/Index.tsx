@@ -20,8 +20,10 @@ const Index = () => (
     <LoanFeatures />
     <Testimonials />
     <FAQSection />
-    <FinalCTA />
-    <Footer />
+    <div className="bg-[linear-gradient(180deg,_hsl(221_50%_20%)_0%,_hsl(218_48%_17%)_100%)]">
+      <FinalCTA />
+      <Footer />
+    </div>
     <MobileStickyButton />
   </div>
 );
